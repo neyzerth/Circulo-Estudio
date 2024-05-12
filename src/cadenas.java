@@ -1,6 +1,7 @@
 public class cadenas {
     public static void main(String[] args) { 
         // ------ CODIGOS EN IMPRESIONES
+        
         //saltos de linea
         String salto = "\n";
         System.out.println("Hola\nMundo"); 
@@ -12,8 +13,8 @@ public class cadenas {
         System.out.println("Holaaa\t Mundo");
 
         //imprimir caracteres reservados
-        System.out.println("Hola \"Mundo\"");   //Hola "Mundo"
-        System.out.println("Hola \\Mundo\\");   //Hola \Mundo\
+        System.out.println("Hola \"Mundo\"");   // >>> Hola "Mundo"
+        System.out.println("Hola \\Mundo\\");   // >>> Hola \Mundo\
 
         //Elimina la letra anterior
         System.out.println("Hola\b\bMundo");    //>>> HoMundo
