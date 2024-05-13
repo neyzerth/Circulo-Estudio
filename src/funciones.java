@@ -30,6 +30,9 @@ public class funciones {
         System.out.flush();
     }
 
+    // EN PROCESO
+
+    //devuelve el numero mayor de un array
     public static Double largNum(Double[] arrayNum){
         Double largestNum = arrayNum[0] ;
         for(int i=1; i <= (arrayNum.length-1); i++)
@@ -39,12 +42,15 @@ public class funciones {
         return largestNum;
     }
 
+    //devuelve n cantidad de espacios en String
     public static String Spaces(int cant){
         String txtSpace = "";
         for (int i = 0; i < cant; i++) txtSpace+=" ";
         return txtSpace;
     }
 
+    //corrige espacios al imprimir (proceso)
+    //PD: usar \t
     public static String correctSpace(Double num, String simbol, int maxLength){
         String strNum = String.valueOf(num);
         int spaces = maxLength - strNum.length();
