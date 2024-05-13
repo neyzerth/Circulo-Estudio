@@ -69,12 +69,5 @@ public class cadenas {
             System.out.print(texto.charAt(i));
             
         }
-
-
-        
-
-        
-
-
     }
 }
