@@ -19,9 +19,9 @@ public class funciones {
 
     //Hace pausa y espera un ENTER desplegando un texto
     @SuppressWarnings("resource")
-    public static void waitKey(String txt) {
+    public static void waitKey() {
         Scanner key = new Scanner(System.in);
-        System.out.print(txt);
+        System.out.print("\nPresione ENTER para continuar... ");
         key.nextLine();
     }
 
