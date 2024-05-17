@@ -1,3 +1,4 @@
+package Codigos;
 public class cadenas {
     public static void main(String[] args) { 
         // ------ CODIGOS EN IMPRESIONES
