@@ -16,5 +16,10 @@ public class errores {
         }
         input.close();
 
+        int[] nums = {5,23,42,5,67};
+        for(int i = 0; i <= nums.length; i++){
+            System.out.println(i+") "+nums[i]);
+        }
+
     }
 }
