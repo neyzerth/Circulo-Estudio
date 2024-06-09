@@ -1,0 +1,9 @@
+PROBLEMAS
+    1.CUENTA BANCARIA
+        Atributos: 
+        - Numero de cuenta
+        - Titular
+        - saldo
+        Metodos:
+        - Depositar
+        - Retirar

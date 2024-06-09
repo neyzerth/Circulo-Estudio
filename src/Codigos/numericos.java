@@ -69,43 +69,35 @@ public class numericos {
         System.out.println("String ->\t"+intNum);
 
         // char
-        intNum = '3' - '0';
         System.out.println("char ->\t"+intNum);
 
 
 
         // --------VALORES DOUBLE -------------------------------
         System.out.println("\nValores Double");
-        double doubNum;
+        double doubNum = 0;
 
         // int
-        doubNum = (double) 13/2;
         System.out.println("int ->\t"+doubNum);
 
         // String
-        doubNum = Double.parseDouble("12.54");
         System.out.println("String ->\t"+doubNum);
 
         // char
-        doubNum = '5' - '0';
         System.out.println("char ->\t"+doubNum);
 
 
         // --------VALORES BOOLEAN -------------------------------
         System.out.println("\nValores Boolean");
-        boolean bool;
+        boolean bool = true ;
 
         // String
-        bool = Boolean.parseBoolean("true");
         System.out.println("\"true\" ->\t"+bool);
         
-        bool = Boolean.parseBoolean("false");
         System.out.println("\"false\" ->\t"+bool);
 
-        bool = Boolean.parseBoolean("TrUE");
         System.out.println("\"TRUE\" ->\t"+bool);
 
-        bool = Boolean.parseBoolean("otro texto");
         System.out.println("\"Otro\" ->\t"+bool);
 
         System.out.println();
